@@ -1,0 +1,48 @@
+.TabelaProdutos table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* mantém a tabela dentro do card */
+}
+
+/* Cabeçalho */
+.TabelaProdutos th {
+    background-color: #283cae;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+/* Células */
+.TabelaProdutos td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap; /* impede quebra tipo "R$" em cima */
+}
+
+/* Linhas */
+.TabelaProdutos .Par {
+    background-color: #ddd;
+}
+
+.TabelaProdutos .Impar {
+    background-color: #ccc;
+}
+
+/* Largura das colunas */
+.TabelaProdutos th:nth-child(1),
+.TabelaProdutos td:nth-child(1) {
+    width: 15%; /* Id */
+}
+
+.TabelaProdutos th:nth-child(2),
+.TabelaProdutos td:nth-child(2) {
+    width: 45%; /* Nome */
+    text-align: left;
+}
+
+.TabelaProdutos th:nth-child(3),
+.TabelaProdutos td:nth-child(3) {
+    width: 40%; /* Preço */
+}
