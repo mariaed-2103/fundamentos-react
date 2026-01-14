@@ -1,0 +1,10 @@
+.Mega input {
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.Mega label {
+    font-weight: bold;
+    margin-right: 10px;
+}

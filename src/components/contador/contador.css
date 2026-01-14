@@ -1,0 +1,34 @@
+.Contador input {
+    font-size: 1.4rem;
+    width: 60px;
+}
+
+.Contador button {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7aedaa;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.Contador button:hover {
+    background-color: #34c471;
+    cursor: pointer;
+}
+
+.Contador h3 {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.Contador label {
+    font-size: 1.4rem;
+}
+
+.Contador div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
